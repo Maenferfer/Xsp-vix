@@ -10,7 +10,7 @@ st.title("📊 Monitor Profesional XSP 0DTE")
 
 # BARRA LATERAL - CONFIGURACIÓN
 st.sidebar.header("Configuración de Usuario")
-api_key = st.sidebar.text_input("d6d2nn1r01qgk7mkblh0d6d2nn1r01qgk7mkblhg", type="password")
+api_key = st.sidebar.text_input("", value="d6d2nn1r01qgk7mkblh0d6d2nn1r01qgk7mkblhg", type="password")
 capital = st.sidebar.number_input("Capital de la Cuenta (€)", min_value=100.0, value=25000.0, step=100.0)
 riesgo_pct = st.sidebar.slider("Riesgo por sesión (%)", 0.5, 5.0, 2.0) / 100
 
